@@ -11,7 +11,7 @@ public class SquareTest {
     @Before
     public void setUp() throws Exception {
         int width = 5;
-        squareRectangle = new Rectangle(width);
+        squareRectangle = Rectangle.square(width);
     }
 
     @Test

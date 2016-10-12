@@ -13,7 +13,7 @@ public class RectangleTest {
     public void setUp() throws Exception {
         int width = 5;
         int height = 3;
-        rectangle = new Rectangle(width, height);
+        rectangle = Rectangle.rectangle(width, height);
 
     }
 
